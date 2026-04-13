@@ -28,6 +28,28 @@ Do NOT use for markdown to HTML -- use text_convert_markdown_to_html instead. Do
         },
         required: ["html"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "markdown": {
+              "type": "string",
+              "description": "Converted markdown output"
+            },
+            "inputLength": {
+              "type": "number",
+              "description": "Input HTML length"
+            },
+            "outputLength": {
+              "type": "number",
+              "description": "Output markdown length"
+            }
+          },
+          "required": [
+            "markdown",
+            "inputLength",
+            "outputLength"
+          ]
+        },
     },
   ],
 };

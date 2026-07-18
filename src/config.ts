@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/convert",
-      price: "$0.001",
+      price: "$0.003",
       description: "Convert HTML to markdown",
       toolName: "text_convert_html_to_markdown",
       toolDescription: `Use this when you need to convert HTML to clean Markdown text. Returns the converted markdown in JSON.

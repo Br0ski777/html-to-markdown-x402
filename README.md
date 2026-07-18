@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `text_convert_html_to_markdown` | POST | `/api/convert` | $0.001 | Convert HTML to markdown |
+| `text_convert_html_to_markdown` | POST | `/api/convert` | $0.003 | Convert HTML to markdown |
 
 ### `text_convert_html_to_markdown`
 
